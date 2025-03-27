@@ -54,7 +54,12 @@
 
 }
 
-.newTaskFormContainer form button:hover{
+.newTaskFormContainer form button:hover:not(:disabled){
     background: var(--blue);
     transition: 0.25s;
+}
+
+.newTaskFormContainer form button:disabled {
+    cursor: not-allowed;
+    opacity: 0.75;
 }
