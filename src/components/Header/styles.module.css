@@ -1,0 +1,23 @@
+.header {
+    background: var(--gray-700);
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.logotype {
+    width: 2.5rem;
+}
+
+.logomark {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--blue);
+}
+
+.logomark span {
+    color: var(--purple-dark);
+}
