@@ -38,7 +38,12 @@ export function App() {
     const taskListWithoutDeletedTask = tasks.filter(task => {
       return task.id !== id
     })
+    const completedTaskListWithoutDeletedTask = completedTasks.filter(task => {
+      return task.id !== id
+    })
     setTasks(taskListWithoutDeletedTask)
+    setCompletedTasks(completedTaskListWithoutDeletedTask)
+    
   }
 
   const completeTask = (id: number) => {
