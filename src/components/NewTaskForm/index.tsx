@@ -10,7 +10,7 @@ export function NewTaskForm() {
                 className={styles.taskInput}
                 placeholder='Adicione uma nova tarefa'
                 />
-                <button type='submit' className={styles.createTaskButton}>
+                <button type='submit'>
                     Criar
                     <PlusCircle />
                 </button>
