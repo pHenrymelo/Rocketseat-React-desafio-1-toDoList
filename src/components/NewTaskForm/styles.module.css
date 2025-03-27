@@ -1,0 +1,34 @@
+.newTaskFormContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newTaskFormContainer form {
+    display: flex;
+    gap: 1rem;
+}
+
+.taskInput {
+    width: 46rem;
+    height: 3.375rem;
+
+    background: var(--gray-500);
+    border: 0;
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--gray-300);
+}
+
+.createTaskButton {
+    width: 5.625rem;
+    height: 3.375rem;
+    background: var(--blue-dark);
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.125rem;
+}
