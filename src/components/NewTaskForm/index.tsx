@@ -15,7 +15,7 @@ export function NewTaskForm({createTask, newTaskInputChange, newTaskGoal}: NewTa
         createTask()
     }
 
-    const handleNewTaskInputChange = (event: InputEvent) => {
+    const handleNewTaskInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         newTaskInputChange(event?.target.value)
     }
 
